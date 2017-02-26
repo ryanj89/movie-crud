@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #465765;
+  height: 15vh;
+}
+
+.movie-list-item > td {
+  padding: 0;
+}
+
+#new-movie {
+  margin-top: 25px;
+}
