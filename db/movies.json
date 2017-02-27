@@ -2,17 +2,31 @@
   "movies": [
     {
       "director": "Christopher Nolan",
-      "rating": 5,
+      "rating": "5",
       "title": "Interstellar",
       "url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_UY1200_CR69,0,630,1200_AL_.jpg",
-      "year": 2014
+      "year": "2014"
     },
     {
-      "director": "Ryan Johnson",
-      "rating": 5,
-      "title": "Test",
-      "url": "asdflskjdf",
-      "year": 2017
+      "title": "Anchorman: The Legend of Ron Burgundy",
+      "director": "Adam McKay",
+      "year": "2004",
+      "rating": "5",
+      "url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2MzYwMzk5Ml5BMl5BanBnXkFtZTcwOTI4NzUyMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+    },
+    {
+      "title": "Rubber",
+      "director": "Quentin Dupieux",
+      "year": "2010",
+      "rating": "0",
+      "url": "http://www.gstatic.com/tv/thumb/movieposters/8299537/p8299537_p_v8_ap.jpg"
+    },
+    {
+      "title": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "year": "2008",
+      "rating": "5",
+      "url": "https://paulmmartinblog.files.wordpress.com/2011/07/the_dark_knight_poster.jpg"
     }
   ]
 }

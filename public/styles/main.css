@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+/* Landing Page */
+.splash {
+  background-image: url('http://www.placecage.com/c/1400/600');
+  background-repeat: no-repeat;
+  background-position: top;
+  bottom: 0;
+}
+
+/* Header */
 header {
   display: flex;
   align-items: center;
@@ -10,10 +19,27 @@ header {
   height: 15vh;
 }
 
+.logo {
+  color: #dbdbdb;
+}
+.logo:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Index.html */
 .movie-list-item > td {
   padding: 0;
 }
 
 #new-movie {
   margin-top: 25px;
+}
+
+/* Show.html */
+.show-page {
+  text-align: center;
+}
+.show-page > img {
+  height: 60vh;
 }

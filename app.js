@@ -5,11 +5,11 @@ const bodyParser = require('body-parser');
 
 const PORT = 3000;
 
-app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use('/', routes);
+app.use(express.static('public'));
 
 app.listen(PORT, function() {
-  console.log("Listening on port 3000");
+  console.log(`Listening on port ${PORT}`);
 });
