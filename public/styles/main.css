@@ -2,12 +2,19 @@
   box-sizing: border-box;
 }
 
+
 /* Landing Page */
+.home {
+  background-color: #f9e16d;
+}
+
 .splash {
   background-image: url('http://www.placecage.com/c/1400/600');
   background-repeat: no-repeat;
   background-position: top;
-  bottom: 0;
+  height: 560px;
+  padding: 0;
+  margin: 0;
 }
 
 /* Header */
@@ -27,15 +34,41 @@ header {
   text-decoration: none;
 }
 
+.brand {
+  display: inline-block;
+}
+/* Nav */
+.main-nav {
+  margin-left: 15px;
+  display: inline-block;
+  list-style: none;
+}
+.main-nav > li {
+  display: inline;
+  margin: 0 15px;
+  padding: 10px 0;
+  color: #dbdbdb;
+  font-size: 16px;
+}
+.main-nav a {
+  color: #dbdbdb;
+}
+.main-nav a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 /* Footer */
 footer {
+  /*position: absolute;*/
   display: flex;
   align-items: center;
   text-align: right;
   background-color: #465765;
   height: 10vh;
-  margin-top: 50px;
-  bottom: 0;
+  /*width: 100%;*/
+  margin-top: 25px;
+  /*bottom: 0;*/
 }
 
 .legal {
@@ -44,6 +77,9 @@ footer {
 }
 
 /* Index.html */
+.index-main {
+  margin-bottom: 75px;
+}
 .movie-list-item > td {
   padding: 0;
 }
