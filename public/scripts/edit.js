@@ -11,6 +11,7 @@ $(document).ready(function() {
     $('#movie-year').val(movieData.year);
     $('#movie-rating').val(movieData.rating);
     $('#movie-poster').val(movieData.url);
+    $('.movie-poster').attr('src', movieData.url);
   }
 
   $('#edit-movie').click(function() {

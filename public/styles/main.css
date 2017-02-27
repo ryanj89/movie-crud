@@ -27,6 +27,22 @@ header {
   text-decoration: none;
 }
 
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  background-color: #465765;
+  height: 10vh;
+  margin-top: 50px;
+  bottom: 0;
+}
+
+.legal {
+  color: #dbdbdb;
+  margin-left: 15px;
+}
+
 /* Index.html */
 .movie-list-item > td {
   padding: 0;
@@ -40,6 +56,16 @@ header {
 .show-page {
   text-align: center;
 }
-.show-page > img {
+.movie-poster {
   height: 60vh;
+}
+
+/* Edit.html */
+.movie-edit {
+  /*text-align: center;*/
+}
+
+#edit-movie {
+  margin-left: 50px;
+  width: 50%;
 }

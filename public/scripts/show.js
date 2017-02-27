@@ -12,6 +12,6 @@ $(document).ready(function() {
     $('#movie-director').text(movie.director);
     $('#movie-year').text(movie.year);
     $('#movie-rating').text(movie.rating);
-    $('#movie-poster').attr('src', movie.url);
+    $('.movie-poster').attr('src', movie.url);
   }
 });
